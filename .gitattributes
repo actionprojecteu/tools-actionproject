@@ -1,0 +1,2 @@
+src/_version.py export-subst
+src/tools_actionproject/_version.py export-subst

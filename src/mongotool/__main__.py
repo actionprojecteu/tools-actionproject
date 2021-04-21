@@ -85,7 +85,7 @@ def mkdate(datestr):
 def createParser():
     # create the top-level parser
     name = os.path.split(os.path.dirname(sys.argv[0]))[-1]
-    parser    = argparse.ArgumentParser(prog=name, description="ACTION TOOL")
+    parser    = argparse.ArgumentParser(prog=name, description="MONGO DATABASE TOOL")
 
     # Global options
     parser.add_argument('--version', action='version', version='{0} {1}'.format(name, __version__))

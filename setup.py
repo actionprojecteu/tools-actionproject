@@ -31,7 +31,7 @@ CLASSIFIERS  = [
 
 PACKAGE_DATA = {}
 
-SCRIPTS = [ "scripts/actiontool", "scripts/epi5spectra", "scripts/zoonispectra"]
+SCRIPTS = [ "scripts/mongotool", "scripts/epi5spectra", "scripts/zoonispectra"]
 
 DATA_FILES = []
 
